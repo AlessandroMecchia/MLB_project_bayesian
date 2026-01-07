@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pymc = "*"
+arviz = "*"
+numpy = "*"
+scipy = "*"
+pandas = "*"
+xarray = "*"
+xarray-einstats = "*"
+matplotlib = "*"
+seaborn = "*"
+h5py = "*"
+ipykernel = "*"
+graphviz = "*"
+nbdime = "*"
+plotly = "*"
+
+[dev-packages]
+pytest = "*"
+ipykernel = "*"
+
+[requires]
+python_version = "3.11"
