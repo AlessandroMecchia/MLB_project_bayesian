@@ -18,6 +18,8 @@ ipykernel = "*"
 graphviz = "*"
 nbdime = "*"
 plotly = "*"
+pybaseball = "*"
+scikit-learn = "*"
 
 [dev-packages]
 pytest = "*"
